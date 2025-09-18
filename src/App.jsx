@@ -24,7 +24,7 @@ export default function APP() {
 
   return (
     <>
-      <h1>Frog Gallery</h1>
+      <h1 className="flex justify-center text-4xl font-bold">Frog Gallery</h1>
 
       <THUMBNAIL
         images={images}
@@ -32,27 +32,7 @@ export default function APP() {
         handleSwitchImage={handleSwitchImage}
       />
 
-      {/* <ul>
-        other elements:
-        <li>Method to render all images</li>
-        <li>
-          an event to click on the images, the event handler here is how we
-          handle switching images
-        </li>
-        <li>
-          this is a container for my larger images this container is
-          CONDTIONALLY RENDERED
-        </li>
-      </ul>
-
-      <ul>
-        <li>element to contianer the larger images</li>
-        <li>
-          some condtional logic to render this element once the user has clicked
-          on th corresponding thumbnail
-        </li>
-        <li></li>
-      </ul> */}
+      <LARGEIMAGE image={images[index]} />
     </>
   );
 }
