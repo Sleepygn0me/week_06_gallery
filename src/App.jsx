@@ -24,19 +24,19 @@ export default function APP() {
 
   return (
     <>
-      <h1>Frpg Gallery</h1>
+      <h1>Frog Gallery</h1>
 
       <THUMBNAIL
         images={images}
         index={index}
         handleSwitchImage={handleSwitchImage}
       />
-      <LARGEIMAGE image={images[index]} />
+
       {/* <ul>
         other elements:
         <li>Method to render all images</li>
         <li>
-          an event to click on the images, the event handker here is how we
+          an event to click on the images, the event handler here is how we
           handle switching images
         </li>
         <li>
@@ -48,8 +48,8 @@ export default function APP() {
       <ul>
         <li>element to contianer the larger images</li>
         <li>
-          some codntional logic to render this element once teh user has clicked
-          on teh corresponding thumbnail
+          some condtional logic to render this element once the user has clicked
+          on th corresponding thumbnail
         </li>
         <li></li>
       </ul> */}

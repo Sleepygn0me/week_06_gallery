@@ -13,7 +13,7 @@ export default function THUMBNAIL({ images, index, handleSwitchImage }) {
 
   return (
     <>
-      <div style={{ display: "flex", gap: "0.5rem", flexWrap: "wrap" }}>
+      <div className="flex flex-wrap gap-2 mt-4">
         {images.map((img, i) => (
           <img
             key={img.id}
