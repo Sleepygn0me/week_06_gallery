@@ -1,0 +1,8 @@
+:root {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* declare a variable  --name */
+  --bg-colour: rgb(77, 77, 192);
+  --font-header: font-size: 2rem;
+}
