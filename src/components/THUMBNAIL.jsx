@@ -10,11 +10,7 @@ export default function THUMBNAIL({ images, index, handleSwitchImage }) {
               src={img.url}
               alt={img.alt}
               tabIndex={0}
-              style={{
-                width: 80,
-                cursor: "pointer",
-                border: i === index ? "2px solid red" : "2px solid transparent",
-              }}
+              className={`thumbnail-image ${i === index ? "selected" : ""}`}
               onClick={() => handleSwitchImage(i)}
               onKeyDown={(e) => {
                 if (e.key === "Enter" || e.key === " ") {

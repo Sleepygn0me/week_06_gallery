@@ -5,9 +5,9 @@
   padding: 24px; /* spacing around content */
   border-radius: 16px; /* rounded corners */
 
-  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1); /* subtle shadow */
-  max-width: 600px; /* optional max width */
-  margin: 2rem auto; /* center on page with top/bottom spacing */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  margin: 2rem auto;
   text-align: center;
 }
 
