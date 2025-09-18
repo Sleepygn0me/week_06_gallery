@@ -14,7 +14,6 @@ export default function LARGEIMAGE({ image }) {
               alt={image.alt}
               className="max-w-full h-auto mx-auto mb-2"
             />
-            <p className="text-black">{image.alt}</p>
           </div>
         </div>
       )}
