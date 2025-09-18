@@ -1,10 +1,4 @@
-import { useState, useEffect } from "react";
-import LARGEIMAGE from "./LARGEIMAGE";
-
-export default function THUMBNAIL() {
-  const [images, setImages] = useState([]);
-  const [index, setIndex] = useState(0);
-
+export default function THUMBNAIL({ images, index, handleSwitchImage }) {
   //state to store api data "in the image component"
   //state to store index value (to nevigate between images)
 
@@ -19,7 +13,21 @@ export default function THUMBNAIL() {
 
   return (
     <>
-      <h1>Frog Gallery</h1>
+      <div style={{ display: "flex", gap: "0.5rem", flexWrap: "wrap" }}>
+        {images.map((img, i) => (
+          <img
+            key={img.id}
+            src={img.url}
+            alt={img.alt}
+            style={{
+              width: 80,
+              cursor: "pointer",
+              border: i === index ? "2px solid red" : "2px solid transparent",
+            }}
+            onClick={() => handleSwitchImage(i)}
+          />
+        ))}
+      </div>
     </>
   );
 }

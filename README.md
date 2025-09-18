@@ -1,12 +1,23 @@
-# React + Vite
+Project
+🎯 Implement the useState hook to manage gallery state (e.g. selected image).
+🎯 Use useEffect for initial fetching of images from an external API.
+🎯 Return JSX from multiple components (e.g., an ImageItem component for each image and a Gallery component to display them).
+🎯 Use the .map() function to render an array of images dynamically
+🎯 Implement functionality to display a larger version of an image when its thumbnail is clicked.
+🎯 Ensure all images have meaningful alt text.
+🎯 Ensure basic keyboard navigation for image selection (e.g., thumbnails should be focusable and activatable with Enter/Space).
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Relfection Required
 
-Currently, two official plugins are available:
+    🎯 What requirements did you achieve?
+    🎯 Were there any requirements or goals that you were unable to achieve?
+    🎯 If so, what was it that you found difficult about these tasks?
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Optional
 
-## Expanding the ESLint configuration
+🏹 Feel free to add any other reflections you would like to share about your submission, for example:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+    Requesting feedback about a specific part of your submission.
+    What useful external sources helped you complete the assignment (e.g Youtube tutorials)?
+    What errors or bugs did you encounter while completing your assignment? How did you solve them?
+    What went really well and what could have gone better?
