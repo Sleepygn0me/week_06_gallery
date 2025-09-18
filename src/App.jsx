@@ -7,7 +7,7 @@ import { useState, useEffect } from "react";
 
 export default function APP() {
   const [images, setImages] = useState([]);
-  const [index, setIndex] = useState(null);
+  const [index, setIndex] = useState(0);
 
   useEffect(() => {
     async function getData() {
@@ -24,8 +24,9 @@ export default function APP() {
 
   return (
     <>
-      <h1 className="flex justify-center text-4xl font-bold">Frog Gallery</h1>
-
+      <div className="title-div">
+        <h1 className="flex justify-center text-4xl font-bold">Frog Gallery</h1>
+      </div>
       <THUMBNAIL
         images={images}
         index={index}

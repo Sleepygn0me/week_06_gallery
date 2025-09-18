@@ -5,6 +5,9 @@
   padding: 0;
   box-sizing: border-box;
   /* declare a variable  --name */
-  --bg-colour: rgb(77, 77, 192);
+  --bg-colour: rgb(7, 105, 40);
   --font-header: font-size: 2rem;
+}
+body {
+  background-color: var(--bg-colour);
 }
