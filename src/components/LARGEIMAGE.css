@@ -1,1 +1,16 @@
 @import "tailwindcss";
+
+.large-image-container {
+  background-color: rgba(255, 255, 255, 0.212);
+  padding: 24px; /* spacing around content */
+  border-radius: 16px; /* rounded corners */
+
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1); /* subtle shadow */
+  max-width: 600px; /* optional max width */
+  margin: 2rem auto; /* center on page with top/bottom spacing */
+  text-align: center;
+}
+
+.large-image-container img {
+  border-radius: 12px;
+}
